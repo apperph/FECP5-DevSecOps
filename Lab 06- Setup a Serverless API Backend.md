@@ -25,28 +25,25 @@ This activity will demonstrate how to create a Serverless API Backend using AWS 
 
 ![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image4.png)
 
+1-e. Test the API endpoint using Postman (https://www.postman.com/):
+
+<img width="948" height="525" alt="Screenshot 2025-07-23 at 3 13 58 PM" src="https://github.com/user-attachments/assets/b704ce93-8ce8-4d62-a48c-70be3fd2e832" />
 
 ## 2. Create a calculator app.
 
-
 2-a. Copy the code below and paste it on your Lambda function.
 
-https://github.com/mikerayco/lambda-simple-calculator/blob/master/lambda_function.py 
+[https://github.com/mikerayco/lambda-simple-calculator/blob/master/lambda_function.py ](https://github.com/apperph/FECP5-DevSecOps/blob/main/lambda_function.py) 
 
 ![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image7.png)
 
-
-
 This application accepts a JSON payload similar to this: {"first": 1, "second": 2, "operation": "addition"}
-
 
 2-b Test the API
 
-Using Terminal:
+Using Postman (https://www.postman.com/):
 
-```
-curl -i -H "Content-Type: application/json" -H "x-api-key: <API KEY>" -X POST -d '{"first": 1, "second": 2, "operation": "addition"}' <API ENDPOINT>
-```
+
 
 ![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image8.png)
 
