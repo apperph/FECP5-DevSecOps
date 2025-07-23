@@ -142,7 +142,7 @@ This outputs the original message: "This is a confidential message and should be
 Submit this JSON file:
 ```
 {
-  "kms_alias": "alias/<name>",
+  "kms_alias": "alias/<name>"
 }
 ```
 
