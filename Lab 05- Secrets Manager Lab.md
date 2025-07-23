@@ -88,6 +88,13 @@ Upon successful execution, the terminal will display:
 
 ![image](https://github.com/user-attachments/assets/f8c89701-9ec4-4dec-8448-9c41e3832930)
 
+Provide the details on the AutoGrader:
+```
+{
+  "SecretName": "my-first-secret"
+}
+```
+
 **Step 4: Cleanup**
 1. Navigate back to the Secrets Manager dashboard.
 
