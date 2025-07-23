@@ -139,6 +139,13 @@ Decrypt the encrypted message using the decoded plaintext key:
 
 This outputs the original message: "This is a confidential message and should be encrypted".
 
+Submit this JSON file:
+```
+{
+  "kms_alias": "alias/<name>",
+}
+```
+
 ## 8. Clean Up
 
 8-a. Schedule CMK Deletion
