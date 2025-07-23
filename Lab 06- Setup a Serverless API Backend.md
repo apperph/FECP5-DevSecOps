@@ -26,15 +26,6 @@ This activity will demonstrate how to create a Serverless API Backend using AWS 
 ![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image4.png)
 
 
-1-e. Test the application by calling the API via the terminal, use this command: 
-
-```
-curl -H 'x-api-key: <API KEY>' <API ENDPOINT>
-```
-
-![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image5.png)
-
-
 1-f. You can also use a software called postman to test your API. (download the software here: https://www.postman.com/downloads/)
 
 ![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image6.png)
