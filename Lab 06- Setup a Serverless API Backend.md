@@ -33,7 +33,7 @@ This activity will demonstrate how to create a Serverless API Backend using AWS 
 
 2-a. Copy the code below and paste it on your Lambda function.
 
-[https://github.com/mikerayco/lambda-simple-calculator/blob/master/lambda_function.py ](https://github.com/apperph/FECP5-DevSecOps/blob/main/lambda_function.py) 
+(https://github.com/apperph/FECP5-DevSecOps/blob/main/lambda_function.py) 
 
 ![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image7.png)
 
@@ -43,19 +43,41 @@ This application accepts a JSON payload similar to this: {"first": 1, "second": 
 
 Using Postman (https://www.postman.com/):
 
+1. Change method to POST
 
+2. Set Headers
 
-![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image8.png)
+In the Headers tab:
 
-Using Postman:
+```
+Key: Content-Type
+Value: application/json
+```
 
-![](https://sb-next-prod-image-bucket.s3.ap-southeast-1.amazonaws.com/public/CDMP/Session+1/Lab+4/image9.png)
+3. Set the Body
+
+In the Body tab:
+
+- Select raw
+- Choose JSON as the type
+- Paste this:
+
+```
+{
+  "first": 1,
+  "second": 2,
+  "operation": "addition"
+}
+```
+
+<img width="948" height="525" alt="Screenshot 2025-07-23 at 3 19 30 PM" src="https://github.com/user-attachments/assets/dd904701-e408-4326-a116-e6cdc4192669" />
+
 
 ## 3. Challenge
 
 3-a. The function for the addition operation is already given in the code, complete the application by creating a function for subtraction, multiplication, and division to complete our API.
 
-Make sure to test your application, after the testing commit your code to CodeCommit, you can copy the code to your Cloud9 environment and push it to a repository named: lambda-simple-calculator-< your name >
+Make sure to test your application, after the testing commit your code to CodeCommit, you can copy the code to your environment and push it to a repository named: lambda-simple-calculator-< your name >
 
 
 
