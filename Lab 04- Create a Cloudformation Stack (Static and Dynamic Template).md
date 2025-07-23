@@ -101,5 +101,6 @@ Copy and paste the following JSON in the submission box, replacing with your act
 ```
 {
   "github_repository_name": "cf-template-Lab1"
+  "github_owner": github_owner
 }
 ```
